@@ -14,6 +14,7 @@
 		B4F806DD284AF8FB002C1BC1 /* _4AppContactos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4F806DB284AF8FB002C1BC1 /* _4AppContactos.xcdatamodeld */; };
 		B4F806DF284AF8FD002C1BC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F806DE284AF8FD002C1BC1 /* Assets.xcassets */; };
 		B4F806E2284AF8FD002C1BC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F806E0284AF8FD002C1BC1 /* LaunchScreen.storyboard */; };
+		B4F806EA284AFB6E002C1BC1 /* EditarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F806E9284AFB6E002C1BC1 /* EditarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B4F806DE284AF8FD002C1BC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4F806E1284AF8FD002C1BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4F806E3284AF8FD002C1BC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F806E9284AFB6E002C1BC1 /* EditarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				B4F806D2284AF8FB002C1BC1 /* AppDelegate.swift */,
 				B4F806D4284AF8FB002C1BC1 /* SceneDelegate.swift */,
 				B4F806D6284AF8FB002C1BC1 /* ViewController.swift */,
+				B4F806E9284AFB6E002C1BC1 /* EditarViewController.swift */,
 				B4F806D8284AF8FB002C1BC1 /* Main.storyboard */,
 				B4F806DE284AF8FD002C1BC1 /* Assets.xcassets */,
 				B4F806E0284AF8FD002C1BC1 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F806EA284AFB6E002C1BC1 /* EditarViewController.swift in Sources */,
 				B4F806D7284AF8FB002C1BC1 /* ViewController.swift in Sources */,
 				B4F806DD284AF8FB002C1BC1 /* _4AppContactos.xcdatamodeld in Sources */,
 				B4F806D3284AF8FB002C1BC1 /* AppDelegate.swift in Sources */,
@@ -299,6 +303,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +332,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
