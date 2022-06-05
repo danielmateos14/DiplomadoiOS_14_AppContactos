@@ -85,8 +85,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iQR-w5-w9G">
                                 <rect key="frame" x="20" y="101" width="280" height="109"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fPX-R6-s0a">
-                                        <rect key="frame" x="73.5" y="0.0" width="133" height="109"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fPX-R6-s0a">
+                                        <rect key="frame" x="73.5" y="0.5" width="133" height="108"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="133" id="phO-5U-jlY"/>
                                             <constraint firstAttribute="height" constant="109" id="yAu-Ky-vRB"/>
@@ -139,6 +139,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Button">
                                             <color key="baseForegroundColor" red="0.97297365390000001" green="0.97133246179999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="btnAceptar:" destination="8y4-RC-uys" eventType="touchUpInside" id="eAM-Px-M9x"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igT-40-8jh">
                                         <rect key="frame" x="157" y="0.0" width="101" height="31"/>
@@ -147,6 +150,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Button">
                                             <color key="baseForegroundColor" red="0.97297365390000001" green="0.97133246179999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="btnCancelar:" destination="8y4-RC-uys" eventType="touchUpInside" id="dCg-T4-NGR"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -177,7 +183,10 @@
                     </navigationItem>
                     <connections>
                         <outlet property="ivFoto" destination="fPX-R6-s0a" id="KDz-J5-Uj2"/>
+                        <outlet property="tfCorreo" destination="EmE-yd-4Zc" id="En9-w2-3QN"/>
+                        <outlet property="tfDireccion" destination="wzn-8I-vMR" id="8Ni-sl-Aqm"/>
                         <outlet property="tfNombre" destination="SNu-zc-sYS" id="ZoQ-lf-n3U"/>
+                        <outlet property="tfTelefono" destination="pTI-2c-CUB" id="JMP-ah-4gX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NdY-wH-WD9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -205,6 +214,7 @@
     </scenes>
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="121"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <image name="square.and.arrow.down.fill" catalog="system" width="121" height="128"/>
         <systemColor name="systemBackgroundColor">

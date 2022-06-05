@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4DA4D8A284C51FB0074B7C0 /* CeldaPersonalizadaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DA4D88284C51FB0074B7C0 /* CeldaPersonalizadaTableViewCell.swift */; };
+		B4DA4D8B284C51FB0074B7C0 /* CeldaPersonalizadaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4DA4D89284C51FB0074B7C0 /* CeldaPersonalizadaTableViewCell.xib */; };
 		B4F806D3284AF8FB002C1BC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F806D2284AF8FB002C1BC1 /* AppDelegate.swift */; };
 		B4F806D5284AF8FB002C1BC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F806D4284AF8FB002C1BC1 /* SceneDelegate.swift */; };
 		B4F806D7284AF8FB002C1BC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F806D6284AF8FB002C1BC1 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4DA4D88284C51FB0074B7C0 /* CeldaPersonalizadaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPersonalizadaTableViewCell.swift; sourceTree = "<group>"; };
+		B4DA4D89284C51FB0074B7C0 /* CeldaPersonalizadaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CeldaPersonalizadaTableViewCell.xib; sourceTree = "<group>"; };
 		B4F806CF284AF8FB002C1BC1 /* 14AppContactos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 14AppContactos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F806D2284AF8FB002C1BC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4F806D4284AF8FB002C1BC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				B4F806E0284AF8FD002C1BC1 /* LaunchScreen.storyboard */,
 				B4F806E3284AF8FD002C1BC1 /* Info.plist */,
 				B4F806DB284AF8FB002C1BC1 /* _4AppContactos.xcdatamodeld */,
+				B4DA4D88284C51FB0074B7C0 /* CeldaPersonalizadaTableViewCell.swift */,
+				B4DA4D89284C51FB0074B7C0 /* CeldaPersonalizadaTableViewCell.xib */,
 			);
 			path = 14AppContactos;
 			sourceTree = "<group>";
@@ -132,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4F806E2284AF8FD002C1BC1 /* LaunchScreen.storyboard in Resources */,
+				B4DA4D8B284C51FB0074B7C0 /* CeldaPersonalizadaTableViewCell.xib in Resources */,
 				B4F806DF284AF8FD002C1BC1 /* Assets.xcassets in Resources */,
 				B4F806DA284AF8FB002C1BC1 /* Main.storyboard in Resources */,
 			);
@@ -145,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4F806EA284AFB6E002C1BC1 /* EditarViewController.swift in Sources */,
+				B4DA4D8A284C51FB0074B7C0 /* CeldaPersonalizadaTableViewCell.swift in Sources */,
 				B4F806D7284AF8FB002C1BC1 /* ViewController.swift in Sources */,
 				B4F806DD284AF8FB002C1BC1 /* _4AppContactos.xcdatamodeld in Sources */,
 				B4F806D3284AF8FB002C1BC1 /* AppDelegate.swift in Sources */,
